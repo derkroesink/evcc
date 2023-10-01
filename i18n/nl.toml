@@ -217,6 +217,8 @@ title = "Doeltijd"
 today = "Vandaag"
 tomorrow = "Morgen"
 update = "Updaten"
+targetEnergyRequired = Je dient ook een energie limiet in te stellen
+onlyInPvMode = Laadplan werkt alleen in PV modus
 
 [main.targetChargePlan]
 chargeDuration = "Oplaadtijd"
@@ -239,6 +241,7 @@ none = "Geen voertuig"
 targetSoc = "Limiet"
 unknown = "Gast voertuig"
 vehicleSoc = "Lading"
+temp = Temperatuur
 
 [main.vehicleSoc]
 charging = "laden"
@@ -373,3 +376,35 @@ title = "Start Error"
 cancel = "Annuleer"
 template = "Fabrikant"
 test = "Test"
+
+
+[config.validation]
+validate = "valideer"
+label = "Status"
+unknown = "onbekend"
+running = "valideren..."
+success = "succesvol"
+failed = "mislukt"
+
+[config.vehicle]
+cancel = "Annuleer"
+titleEdit = "Voertuig bewerken"
+delete = "Verwijder voertuig"
+titleAdd = "Voertuig toevoegen"
+online = "Voertuig met online API"
+save = "Opslaan"
+template = "Fabrikant"
+offline = "Algemeen voertuig"
+validateSave = "Valideren & opslaan"
+scooter = "Scooter"
+generic = "Andere integraties"
+
+[config.main]
+vehicles = "Mijn voertuigen"
+edit = "Bewerken"
+title = "Configuratie"
+addVehicle = "Voertuig toevoegen"
+
+[config.form]
+optional = Optioneel
+example = "Voorbeeld"
